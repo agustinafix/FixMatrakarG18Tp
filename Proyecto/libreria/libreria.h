@@ -29,7 +29,6 @@ struct Gimnasio{
 struct Inscripcion{
     int IdClase;
     time_t FechaInscripcion;
-    *Inscripciones MisInscripciones;
 }; typedef Inscripcion MisInscripciones;
 
 
@@ -37,7 +36,7 @@ struct Clases{
     int IdCliente;
     int CantidadInscripciones;
     *Inscripciones MisInscripciones;
-};
+};typedef Clases ClientesTotales;
 
 
 
@@ -46,3 +45,4 @@ struct Clases{
 #endif // LIBRERIA_H
 
 #endif // LIBRERIA_H
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     vbvv
