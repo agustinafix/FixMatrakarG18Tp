@@ -35,7 +35,7 @@ struct Inscripcion{
 struct Clases{
     int IdCliente;
     int CantidadInscripciones;
-    *Inscripciones MisInscripciones;
+    Inscripciones* MisInscripciones;
 };typedef Clases ClientesTotales;
 
 
